@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		522DF36D14255FC400E090DC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522DF36C14255FC400E090DC /* Cocoa.framework */; };
+		522DF37714255FC400E090DC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 522DF37514255FC400E090DC /* InfoPlist.strings */; };
+		522DF37914255FC400E090DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DF37814255FC400E090DC /* main.m */; };
+		522DF37D14255FC400E090DC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 522DF37B14255FC400E090DC /* Credits.rtf */; };
+		522DF38014255FC400E090DC /* safariaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DF37F14255FC400E090DC /* safariaAppDelegate.m */; };
+		522DF38314255FC500E090DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DF38114255FC500E090DC /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		522DF36814255FC400E090DC /* safaria.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = safaria.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		522DF36C14255FC400E090DC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		522DF36F14255FC400E090DC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		522DF37014255FC400E090DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		522DF37114255FC400E090DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		522DF37414255FC400E090DC /* safaria-Info.plist */ = {isa = PBXFileReference; path = "safaria-Info.plist"; sourceTree = "<group>"; };
+		522DF37614255FC400E090DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		522DF37814255FC400E090DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		522DF37A14255FC400E090DC /* safaria-Prefix.pch */ = {isa = PBXFileReference; path = "safaria-Prefix.pch"; sourceTree = "<group>"; };
+		522DF37C14255FC400E090DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		522DF37E14255FC400E090DC /* safariaAppDelegate.h */ = {isa = PBXFileReference; path = safariaAppDelegate.h; sourceTree = "<group>"; };
+		522DF37F14255FC400E090DC /* safariaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safariaAppDelegate.m; sourceTree = "<group>"; };
+		522DF38214255FC500E090DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		522DF36514255FC400E090DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DF36D14255FC400E090DC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		522DF35D14255FC400E090DC = {
+			isa = PBXGroup;
+			children = (
+				522DF37214255FC400E090DC /* safaria */,
+				522DF36B14255FC400E090DC /* Frameworks */,
+				522DF36914255FC400E090DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		522DF36914255FC400E090DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				522DF36814255FC400E090DC /* safaria.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		522DF36B14255FC400E090DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522DF36C14255FC400E090DC /* Cocoa.framework */,
+				522DF36E14255FC400E090DC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		522DF36E14255FC400E090DC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				522DF36F14255FC400E090DC /* AppKit.framework */,
+				522DF37014255FC400E090DC /* CoreData.framework */,
+				522DF37114255FC400E090DC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		522DF37214255FC400E090DC /* safaria */ = {
+			isa = PBXGroup;
+			children = (
+				522DF37E14255FC400E090DC /* safariaAppDelegate.h */,
+				522DF37F14255FC400E090DC /* safariaAppDelegate.m */,
+				522DF38114255FC500E090DC /* MainMenu.xib */,
+				522DF37314255FC400E090DC /* Supporting Files */,
+			);
+			path = safaria;
+			sourceTree = "<group>";
+		};
+		522DF37314255FC400E090DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				522DF37414255FC400E090DC /* safaria-Info.plist */,
+				522DF37514255FC400E090DC /* InfoPlist.strings */,
+				522DF37814255FC400E090DC /* main.m */,
+				522DF37A14255FC400E090DC /* safaria-Prefix.pch */,
+				522DF37B14255FC400E090DC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		522DF36714255FC400E090DC /* safaria */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 522DF38614255FC500E090DC /* Build configuration list for PBXNativeTarget "safaria" */;
+			buildPhases = (
+				522DF36414255FC400E090DC /* Sources */,
+				522DF36514255FC400E090DC /* Frameworks */,
+				522DF36614255FC400E090DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = safaria;
+			productName = safaria;
+			productReference = 522DF36814255FC400E090DC /* safaria.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		522DF35F14255FC400E090DC /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 522DF36214255FC400E090DC /* Build configuration list for PBXProject "safaria" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 522DF35D14255FC400E090DC;
+			productRefGroup = 522DF36914255FC400E090DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				522DF36714255FC400E090DC /* safaria */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		522DF36614255FC400E090DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DF37714255FC400E090DC /* InfoPlist.strings in Resources */,
+				522DF37D14255FC400E090DC /* Credits.rtf in Resources */,
+				522DF38314255FC500E090DC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		522DF36414255FC400E090DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				522DF37914255FC400E090DC /* main.m in Sources */,
+				522DF38014255FC400E090DC /* safariaAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		522DF37514255FC400E090DC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DF37614255FC400E090DC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		522DF37B14255FC400E090DC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DF37C14255FC400E090DC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		522DF38114255FC500E090DC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				522DF38214255FC500E090DC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		522DF38414255FC500E090DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		522DF38514255FC500E090DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		522DF38714255FC500E090DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "safaria/safaria-Prefix.pch";
+				INFOPLIST_FILE = "safaria/safaria-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		522DF38814255FC500E090DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "safaria/safaria-Prefix.pch";
+				INFOPLIST_FILE = "safaria/safaria-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		522DF36214255FC400E090DC /* Build configuration list for PBXProject "safaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522DF38414255FC500E090DC /* Debug */,
+				522DF38514255FC500E090DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		522DF38614255FC500E090DC /* Build configuration list for PBXNativeTarget "safaria" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				522DF38714255FC500E090DC /* Debug */,
+				522DF38814255FC500E090DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 522DF35F14255FC400E090DC /* Project object */;
+}
