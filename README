@@ -1,0 +1,16 @@
+WebKey is a promitional button handed out that usually sends you to a
+useless web addess.  This hack brings back the fun.  WebKey emulates a
+keyboard and performs a series of commands without waiting for response:
+
+1. Open Dock (Ctrl+F3)
+2. Type safari, <enter>
+3. Wait
+4. Command+L (location bar)
+5. promotional-address-here
+6. <enter>
+
+To hook this, you have to place safaria to the left of Safari in your dock,
+so that it is chosen as a result
+
+Or, if you've moved on from that browser you can name it whatever you want,
+so long as it starts with s, or sa, or whatever you need for a unique prefix

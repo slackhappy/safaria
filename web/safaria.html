@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<link href="https://d3t9wmuxo47dud.cloudfront.net/styles/foursquare-029ae99047cf4127b9b30dc932564f7d-gz.css" type="text/css" rel="stylesheet" />
+		<link href="https://d3t9wmuxo47dud.cloudfront.net/facebox/facebox-2e544c9fb7add3d5f93cfdda0a4bdfb0-gz.css" type="text/css" rel="stylesheet" />
+
+    
+  
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js" type="text/javascript" id="jquery"></script>
+  
+
+    
+		<script src="https://d3t9wmuxo47dud.cloudfront.net/scripts/third_party/jquery.tmpl.min-2b26540d6761fa6eb1e66d97ec176364-gz.js" type="text/javascript"></script>
+		<script src = "jquery.cookie-modified.js"></script>
+		<script>
+			function setName() {
+				var name = $('#name').val()
+				alert(name)
+				$.cookie('name', name);
+				alert($.cookie('name'))
+			}
+			function getName() {
+				return  $.cookie('name')
+				
+			}
+			$(function() {$('#name').val(getName())})
+		</script>
+					
+
+		<title>safaria</title>	
+	</head>
+	<h1>safaria</h1>
+	<label for="name">What is your name?</label>
+	<input id="name" type="text" placeholder="your name" />
+	<input type="submit" onclick="setName()" />
+
+</html>

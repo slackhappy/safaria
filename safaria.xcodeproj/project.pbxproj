@@ -13,6 +13,7 @@
 		522DF37D14255FC400E090DC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 522DF37B14255FC400E090DC /* Credits.rtf */; };
 		522DF38014255FC400E090DC /* safariaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DF37F14255FC400E090DC /* safariaAppDelegate.m */; };
 		522DF38314255FC500E090DC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 522DF38114255FC500E090DC /* MainMenu.xib */; };
+		522DF38B1425611A00E090DC /* MenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = 522DF38A1425611A00E090DC /* MenuController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,14 +22,16 @@
 		522DF36F14255FC400E090DC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		522DF37014255FC400E090DC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		522DF37114255FC400E090DC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		522DF37414255FC400E090DC /* safaria-Info.plist */ = {isa = PBXFileReference; path = "safaria-Info.plist"; sourceTree = "<group>"; };
+		522DF37414255FC400E090DC /* safaria-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "safaria-Info.plist"; sourceTree = "<group>"; };
 		522DF37614255FC400E090DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		522DF37814255FC400E090DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		522DF37A14255FC400E090DC /* safaria-Prefix.pch */ = {isa = PBXFileReference; path = "safaria-Prefix.pch"; sourceTree = "<group>"; };
+		522DF37A14255FC400E090DC /* safaria-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "safaria-Prefix.pch"; sourceTree = "<group>"; };
 		522DF37C14255FC400E090DC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		522DF37E14255FC400E090DC /* safariaAppDelegate.h */ = {isa = PBXFileReference; path = safariaAppDelegate.h; sourceTree = "<group>"; };
+		522DF37E14255FC400E090DC /* safariaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = safariaAppDelegate.h; sourceTree = "<group>"; };
 		522DF37F14255FC400E090DC /* safariaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = safariaAppDelegate.m; sourceTree = "<group>"; };
 		522DF38214255FC500E090DC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		522DF3891425611A00E090DC /* MenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuController.h; sourceTree = "<group>"; };
+		522DF38A1425611A00E090DC /* MenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				522DF37E14255FC400E090DC /* safariaAppDelegate.h */,
 				522DF37F14255FC400E090DC /* safariaAppDelegate.m */,
 				522DF38114255FC500E090DC /* MainMenu.xib */,
+				522DF3891425611A00E090DC /* MenuController.h */,
+				522DF38A1425611A00E090DC /* MenuController.m */,
 				522DF37314255FC400E090DC /* Supporting Files */,
 			);
 			path = safaria;
@@ -164,6 +169,7 @@
 			files = (
 				522DF37914255FC400E090DC /* main.m in Sources */,
 				522DF38014255FC400E090DC /* safariaAppDelegate.m in Sources */,
+				522DF38B1425611A00E090DC /* MenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +255,7 @@
 				GCC_PREFIX_HEADER = "safaria/safaria-Prefix.pch";
 				INFOPLIST_FILE = "safaria/safaria-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -260,6 +267,7 @@
 				GCC_PREFIX_HEADER = "safaria/safaria-Prefix.pch";
 				INFOPLIST_FILE = "safaria/safaria-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -283,6 +291,7 @@
 				522DF38814255FC500E090DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
